@@ -1,0 +1,47 @@
+html, body{
+
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 100%;
+  text-align: center;
+  background-color: #333;
+}
+
+.selectWindow{
+  padding: 2.1rem;
+  color: black;
+  background-color: white;
+}
+.selectWindow select{
+
+  font-size: 1rem;
+}
+
+.slide-show{
+  display: flex;
+  flex: 1;
+  background: #1A1B21;
+
+}
+/* .slide-show > div{
+  flex:1;
+} */
+.aboutSection{
+  flex: 1;
+  text-align: justify;
+  padding: 5rem;
+
+}
+.aboutSection h3{
+  margin:0;
+}
+.image-container {
+   padding: 5rem 6rem;
+}
